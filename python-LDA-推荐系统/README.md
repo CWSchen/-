@@ -1,9 +1,10 @@
 python-LDA
 ===
-### lda模型的python实现，算法采用sampling抽样
+### lda模型的python3实现，算法采用sampling抽样
 ---
-
-* 项目基于python2.7.10如果发现计算概率为0，可能是python的兼容性问题，暂时没时间修复（发现python3.0以上版本会出现此问题）
+摘自：https://github.com/a55509432/python-LDA 
+特别感谢原作者，通过这个demo，解决了我的疑惑。
+一点遗憾，暂时还没有解决 logging.config.fileConfig(CONF_LOG) 读取配置文件，兼容中文的问题。
 
 ---
 ### 训练和输出文本格式说明
