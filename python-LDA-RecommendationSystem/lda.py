@@ -13,8 +13,7 @@ from collections import OrderedDict
 path = os.getcwd()
 #导入日志配置文件 https://www.cnblogs.com/cp-vbird/archive/2016/07/06/5646876.html
 '''
-怎么不支持 带中文的 配置文件？以后待找解决方法。
-https://blog.csdn.net/u010571844/article/details/50454688
+########### 不支持 带中文的 配置文件？待找解决方法 #############
 '''
 logging.config.fileConfig('logging.conf')
 #创建日志对象
