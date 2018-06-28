@@ -193,7 +193,8 @@ plt.plot(deleteNs, test_accuracy_list)
 plt.title('Relationship of deleteNs and test_accuracy')
 plt.xlabel('deleteNs')
 plt.ylabel('test_accuracy')
-# plt.savefig('result.png')
+# savefig 保存图片 要放在 show的前面，否则，保存的是空白
+plt.savefig('result.png')
 plt.show()
 
 print("finished")
